@@ -1,6 +1,7 @@
 @import './home.css';
 @import './nav-bar.css';
 @import './footer.css';
+@import 'primeicons/primeicons.css';
 
 *,
 *::before,

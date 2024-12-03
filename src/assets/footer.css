@@ -1,12 +1,13 @@
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 10wh;
+  border-top: 0.5px solid rgba(192, 184, 184, 0.2);
 }
 
 .footer-message {
   display: flex;
   padding: 20px;
+  font-family: "Formula1", sans-serif;
   color: white;
 }
 
