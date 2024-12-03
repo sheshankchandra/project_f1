@@ -1,0 +1,36 @@
+@import './home.css';
+@import './nav-bar.css';
+@import './footer.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0%;
+  background-color: #24252A;
+}
+
+#app-body {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 25px; */
+}
+
+#app-header {
+  height: 80px;
+}
+
+#app-main {
+  flex: 1;
+  display: flex;
+}
+
+/* #app-footer{
+  height: 40px;
+} */

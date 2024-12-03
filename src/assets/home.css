@@ -1,0 +1,35 @@
+#welcome-content-wrapper{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#welcome-div-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 2;
+  font-family: "Formula1", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: white;
+  height: 100%;
+}
+
+#blinking-cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  margin: 0 5px;
+}
+  
+@keyframes blink {
+  0%, 49%, 100% {
+      opacity: 1;
+  }
+  50%, 99% {
+      opacity: 0;
+  }
+}
